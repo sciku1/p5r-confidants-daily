@@ -37,6 +37,7 @@ jobs:
         with: 
           repository: sciku1/sciku1.github.io
           path: sciku1.github.io
+          token: ${{ secrets.PAT }}
           
       - name: Upload
         run: |
