@@ -43,4 +43,5 @@ jobs:
           rm -rf sciku1.github.io/p5r-confidant-search
           cp -r p5r-confidants-daily/dist/ sciku1.github.io/p5r-confidant-search
           git commit -m "Deploy p5r-confidants-daily commit GITHUB_SHA"
+          cd sciku1.github.io
           git push origin main
