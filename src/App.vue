@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from "vue-router";
-
+import HomeView from "@/views/HomeView.vue"
 </script>
 
 <template>
@@ -23,7 +23,7 @@ import { RouterLink, RouterView } from "vue-router";
           well! <br/> 
           Report issues or feature requests to <a href="https://github.com/sciku1/p5r-confidants-daily/issues">Github Repository</a>
         </p>
-        <RouterView />
+        <HomeView />
       </div>
       <div class="col-12 col-3-md"></div>
     </div>
