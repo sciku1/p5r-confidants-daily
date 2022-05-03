@@ -20,7 +20,8 @@ import { RouterLink, RouterView } from "vue-router";
           Often, persona 5 schedule guides come either in the form of long lists of dates
           or large tables. I found them cumbersome to search, so I scraped the data
           created a quick text-search version of them. Maybe you will find this useful as
-          well!
+          well! <br/> 
+          Report issues or feature requests to <a href="https://github.com/sciku1/p5r-confidants-daily/issues">Github Repository</a>
         </p>
         <RouterView />
       </div>
