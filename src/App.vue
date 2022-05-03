@@ -21,7 +21,7 @@ import HomeView from "@/views/HomeView.vue"
           or large tables. I found them cumbersome to search, so I scraped the data
           created a quick text-search version of them. Maybe you will find this useful as
           well! <br/> 
-          Report issues or feature requests to <a href="https://github.com/sciku1/p5r-confidants-daily/issues">Github Repository</a>
+          Report issues or feature requests to <a href="https://github.com/sciku1/p5r-confidants-daily/issues">Github Repository</a>.
         </p>
         <HomeView />
       </div>
