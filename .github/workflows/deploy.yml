@@ -35,6 +35,7 @@ jobs:
           path: sciku1.github.io
           
       - name: Upload
+        run: |
           rm -rf sciku1.github.io/p5r-confidant-search
           copy dist/ sciku1.github.io/p5r-confidant-search
           git commit -m "Deploy p5r-confidants-daily commit GITHUB_SHA"
