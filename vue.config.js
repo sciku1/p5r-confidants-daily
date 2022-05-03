@@ -1,3 +1,3 @@
 module.exports = {
-    baseUrl: process.env.BASE_ORIGIN
+    publicPath: process.env.VUE_APP_BASE_ORIGIN
 };
