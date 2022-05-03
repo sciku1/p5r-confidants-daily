@@ -45,5 +45,6 @@ jobs:
           cd sciku1.github.io
           git config --global user.email "ci"
           git config --global user.name "CI"
+          git add -A
           git commit -m "Deploy p5r-confidants-daily commit $GITHUB_SHA"
           git push origin main
