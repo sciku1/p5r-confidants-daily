@@ -12,7 +12,7 @@ on:
   workflow_dispatch:
 
 env: 
-  BASE_URL: https://sciku1.github.io/p5r-confidant-search/
+  BASE_ORIGIN: p5r-confidant-search/
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
