@@ -30,6 +30,7 @@ jobs:
       - name: Run a multi-line script
         run: |
           cd p5r-confidants-daily
+          npm install
           npm run build
 
       - uses: actions/checkout@v3
