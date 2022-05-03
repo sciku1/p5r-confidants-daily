@@ -1,3 +1,3 @@
 module.exports = {
-    publicPath: process.env.VUE_APP_BASE_ORIGIN
+    publicPath: './p5r-confidant-search/'
 };
